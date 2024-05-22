@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap");
+
+body {
+    animation: fadeIn 1.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    top: 20%;
+    bottom: 60%;
+    /* align-items: center; */
+    background-image: url("https://th.bing.com/th/id/R.0ee2eca0ac8d0cd7214f488b39e73be6?rik=zusfT7wYuQYavQ&pid=ImgRaw&r=0");
+    height: 150vh;
+}
+
+.Clicker{
+    font-family: "Italiana";
+    font-size: 40px;
+    color: #fff;
+    border-radius: 17px;
+    background: #5a1187;
+    text-align: center;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+.ochki{
+    font-size: 40px;
+    color: #fff;
+}
+
+.container {
+    margin-top: 500px;
+    background-image: url("https://th.bing.com/th/id/OIP.dA5d4bv2iUfWuPtI0yHobQAAAA?rs=1&pid=ImgDetMain");
+    animation: fadeIn 1.5s ease-in-out;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#clickerButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #823939;
+    color: #ffffff;
+}
+
+#clickerButton:hover {
+    background-color: #abc6e2;
+}
