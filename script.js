@@ -5,7 +5,6 @@ document.getElementById('clickerButton').addEventListener('click', () => {
     document.getElementById('score').innerText = score;
     
     if (score > 50) {
-        document.querySelector('.container').style.backgroundImage = "url('https://th.bing.com/th/id/OIP.dA5d4bv2iUfWuPtI0yHobQAAAA?rs=1&pid=ImgDetMain')";
+        document.querySelector('.container').style.backgroundImage = "url('https://th.bing.com//id/OIP.dA5d4bv2iUfWuPtI0yHobAAA?rs=1&pid=ImgDeain')";
     }
 });
-
