@@ -132,20 +132,24 @@ header.header nav ul li a:hover {
 }
 
 .Clicker {
+    position: absolute;
+    top: 0%;
     font-family: "Italiana";
+    box-shadow: 0 0 20px  #5a1187, 0 0 40px rgba(171, 198, 226, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
+    transform: scale(1.1);
     font-size: 40px;
     color: #fff;
     border-radius: 17px;
     background: #5a1187;
     text-align: center;
-    padding: 10px 10px;
+    padding: 5px 5px;
     display: inline-block;
     margin-bottom: 20px; 
     animation: fadeIn 2s ease-in-out, pulse 2s;
 }
 
 .ochki {
-    font-family: "Ineter";
+    font-family: "Inter";
     margin-top: 190px;
     font-size: 40px;
     color: #fff;
@@ -153,7 +157,6 @@ header.header nav ul li a:hover {
 }
 
 .ochki:hover{
-    background-color: #1cc806;
     border-radius: 50px;
     box-shadow: 0 0 20px rgba(145, 255, 1, 0.6), 0 0 40px rgba(171, 198, 226, 0.6), 0 0 60px rgba(171, 198, 226, 0.6);
     transform: scale(1.1);
